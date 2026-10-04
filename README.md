@@ -17,8 +17,6 @@
 
 Implementasi ditata mengikuti MVC: route meneruskan request ke controller, model Eloquent membaca/menulis tabel, dan view Blade menampilkan data. Output user menggunakan echo Blade `{{ }}` yang di-escape otomatis; semua form menulis data menggunakan validasi Laravel dan mass assignment memakai `$fillable`.
 
-> Rubrik pada materi menilai kelengkapan fungsionalitas, konsistensi MVC, validasi/keamanan, dan kerapian kode. Implementasi ini memenuhi semua butir requirement tugas dan menambahkan pengujian fitur untuk membantu menargetkan rentang skor 90–100. Nilai akhir tetap mengikuti penilaian dosen dan ketepatan pengumpulan.
-
 ## Teknologi dan prasyarat
 
 - PHP **8.3+** dengan ekstensi `pdo_mysql`.
